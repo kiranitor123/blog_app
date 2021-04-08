@@ -31,9 +31,10 @@
               <a href="#" class="like-dislike">
                 <i class="fa fa-thumbs-down m-2 dislike" aria-hidden="true"><%= article.dislikes %></i>
               </a>
-              <%= link_to 'Edit', edit_article_path(article) %>
+              
+              <%= link_to 'Edit', edit_article_path(article), :class => "btn btn-warning"%>
 
-              <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %>
+              <%= link_to 'Destroy', article, :class => "btn btn-danger", method: :delete, data: { confirm: 'Are you sure?' }%>
           </div>
         </div>
         <div class="card-header">
