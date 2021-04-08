@@ -3,40 +3,6 @@
 # Blog_App
 > This is a Blog-App that help us to create different articles using Ruby on Rails.
 
-[](./img1.png)
-
-<div align="center">
-  <img src="/img2.png" width="auto" height="auto"/>
-</div>
-
-<div align="center">
-  <img src="/img3.png" width="auto" height="auto"/>
-</div>
-
-<div align="center">
-  <img src="/img4.png" width="auto" height="auto"/>
-</div>
-
-<div align="center">
-  <img src="/img5.png" width="auto" height="auto"/>
-</div>
-
-<div align="center">
-  <img src="/img6.png" width="auto" height="auto"/>
-</div>
-
-<div align="center">
-  <img src="/img7.png" width="auto" height="auto"/>
-</div>
-
-<div align="center">
-  <img src="/img8.png" width="auto" height="auto"/>
-</div>
-
-<div align="center">
-  <img src="/img9.png" width="auto" height="auto"/>
-</div>
-
 **What you can do with this project**
 - You can create the different articles
 - You can edit the created articles.
