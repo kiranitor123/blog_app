@@ -3,9 +3,7 @@
 # Blog_App
 > This is a Blog-App that help us to create different articles using Ruby on Rails.
 
-<div align="center">
-  <img src="./img1.png" width="auto" height="auto"/>
-</div>
+[](./img1.png)
 
 <div align="center">
   <img src="/img2.png" width="auto" height="auto"/>
