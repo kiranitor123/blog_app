@@ -1,6 +1,8 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import "font-awesome";
+
 .heading {
   background-image: url('/background.png');
   height: 200px;
@@ -18,4 +20,18 @@
 .btn {
   height: 60px;
   margin-top: 55px;
+}
+
+.like-dislike {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #eee;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
 }
