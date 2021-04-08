@@ -8,7 +8,7 @@
 </div>
 
 <div class="justify-content">
-<button type="button" class="btn btn-success mt-6">Create New Article</button>
+<%= link_to("Create New Article", new_article_path, :class => "btn btn-success", :role=>"button") %>
 </div>
 </div>
 
@@ -57,5 +57,3 @@
 </table>
 
 <br>
-
-<%= link_to 'New Article', new_article_path %>
