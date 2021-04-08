@@ -1,3 +1,11 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.heading {
+  background-image: url(/blog_app/public/backgroung.png);
+}
+
+.app_name {
+  color: #6f36ff;
+  font-family: 'Courier New', monospace;
+}
