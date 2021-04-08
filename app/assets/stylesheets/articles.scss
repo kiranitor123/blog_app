@@ -8,18 +8,23 @@
   height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .app_name {
-  color: #ffff;
+  color: #fff;
   font-style: italic;
   font-family: 'Courier New', monospace;
 }
 
-.btn {
-  height: 60px;
-  margin-top: 55px;
+.btn-success {
+  color: #fff !important;
+}
+
+.img-center,
+.add-article {
+  align-self: center;
 }
 
 .like-dislike {
@@ -77,8 +82,6 @@
   margin-top: 100px;
 }
 
-.names {
-  border-radius: 7px;
-  margin-bottom: 10px;
-  margin-top: 20px;
+.article {
+  max-width: 670px;
 }
