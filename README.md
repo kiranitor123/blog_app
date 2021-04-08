@@ -4,7 +4,7 @@
 > This is a Blog-App that help us to create different articles using Ruby on Rails.
 
 <div align="center">
-  <img src="/img1.png" width="auto" height="auto"/>
+  <img src="./img1.png" width="auto" height="auto"/>
 </div>
 
 <div align="center">
