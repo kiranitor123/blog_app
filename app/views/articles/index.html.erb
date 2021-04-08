@@ -1,14 +1,7 @@
-<div class="heading d-flex ">
-  <div class="app_name text-bold">
-    <h1 class="m-4 ">Blog App</h1>
-    <h2 class="m-4">Microverse</h2>
-  </div>
-  <div class="add-article">
-    <%= link_to("Create New Article", new_article_path, :class => "btn btn-success", :role=>"button") %>
-  </div>
-</div>
+<%= render 'header' %>
 
 <div class="card mb-3 m-4 mx-auto article">
+  <p id="notice"><%= notice %></p>
   <% @articles.each do |article| %> 
   <div class="row g-0">
     <div class="col-md-4 p-3 img-center">

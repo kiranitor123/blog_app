@@ -1,6 +1,13 @@
-<h1>Editing Article</h1>
+<%= render 'header' %>
+<div class="form mx-auto mt-2">
+  <h1>Editing Article</h1>
 
-<%= render 'form', article: @article %>
+  <%= render 'form', article: @article %>
 
-<%= link_to 'Show', @article %> |
-<%= link_to 'Back', articles_path %>
+  <div class="d-flex justify-content-end">
+    <%= link_to 'Back', articles_path %>
+  </div>
+  
+</div>
+
+

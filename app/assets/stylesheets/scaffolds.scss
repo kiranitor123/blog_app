@@ -44,10 +44,12 @@ td {
 div.field,
 div.actions {
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 #notice {
-  color: green;
+  color: blueviolet;
 }
 
 .field_with_errors {
