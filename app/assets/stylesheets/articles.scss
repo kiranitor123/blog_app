@@ -2,14 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 .heading {
-  background-image: url('/backgroung.png');
+  background-image: url('/background.png');
   height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
+  justify-content: space-around;
 }
 
 .app_name {
-  color: #ffffff;
+  color: #ffff;
   font-style: italic;
   font-family: 'Courier New', monospace;
+}
+
+.btn {
+  height: 60px;
+  margin-top: 55px;
 }
