@@ -10,8 +10,12 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field">
+ 
+  <div class="form">
+    <fieldset class="design">
+      <legend>Create New Article</legend>
+      
+  <div class="names">
     <%= form.label :title %>
     <%= form.text_field :title %>
   </div>
@@ -39,4 +43,10 @@
   <div class="actions">
     <%= form.submit %>
   </div>
+
+  </form>
+  </fieldset>
+   </div>
 <% end %>
+
+ 
