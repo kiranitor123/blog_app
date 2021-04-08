@@ -1,9 +1,9 @@
 <%= render 'header' %>
 
-<div class = "form mx-auto mt-2"">
+<div class = "form mx-auto mt-2">
   <%= render 'form', article: @article %>
 
   <div class="d-flex justify-content-end">
-    <%= link_to 'Back', articles_path %>
+    <%= link_to 'Back', articles_path, :class => "btn btn-info" %>
   </div>
 </div>
