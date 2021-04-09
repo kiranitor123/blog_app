@@ -1,0 +1,90 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import "font-awesome";
+
+.heading {
+  background-image: url('/background.png');
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.app_name {
+  color: #fff;
+  font-style: italic;
+  font-family: 'Courier New', monospace;
+}
+
+.btn-success {
+  color: #fff !important;
+}
+
+.img-center,
+.add-article {
+  align-self: center;
+}
+
+.like-dislike {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+}
+
+.like {
+  color: #008bf7;
+}
+
+.dislike {
+  color: #f75232;
+}
+
+.new_article_heading {
+  color: #6f36ff;
+  font-style: italic;
+  font-family: 'Courier New', monospace;
+}
+
+.design {
+  height: 50%;
+  width: 19%;
+  color: brown;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 500px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.button {
+  color: brown;
+  text-align: center;
+  margin-left: 60px;
+  border-radius: 6px;
+  width: 170px;
+  height: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.redict_form {
+  margin-top: 100px;
+}
+
+.article {
+  max-width: 670px;
+}
+
+.form {
+  width: 50%;
+}
