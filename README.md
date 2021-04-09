@@ -49,7 +49,7 @@ Please Note that you must have Git installed on your PC, this can be done [here]
 2. Open/navigate to the project directory in your terminal
 3. Run `bundle install`
 4. Migrate, run `rails db:migrate`
-5. bin\rails server
+5. bin/rails server
 
 
 ## Authors
@@ -70,7 +70,7 @@ Please Note that you must have Git installed on your PC, this can be done [here]
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/kiranitor123/blog_app/issues).
 
 ## Show your support
 
