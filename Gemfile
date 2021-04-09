@@ -9,6 +9,9 @@ gem 'bootstrap-sass'
 
 gem 'font-awesome-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
+
+gem 'jquery-rails'
+
 gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
 # Use rubocop
 gem 'rubocop', '~>0.81.0'
