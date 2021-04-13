@@ -25,6 +25,9 @@
 - VS code
 - Linters (RuboCop)
 
+## Live Server Link
+[Live demo link](https://blogappfinal.herokuapp.com/articles)
+
 ## Prerequisites
 Text Editor (VSCode is suggested.) Ruby Rails Bundler Yarn SQL
 
